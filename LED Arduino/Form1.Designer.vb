@@ -27,14 +27,14 @@ Partial Class Form1
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.OvalShape1 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
-        Me.OvalShape2 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
-        Me.OvalShape3 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
-        Me.OvalShape4 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
-        Me.OvalShape5 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
-        Me.OvalShape6 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
-        Me.OvalShape7 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
         Me.OvalShape8 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.OvalShape7 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.OvalShape6 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.OvalShape5 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.OvalShape4 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.OvalShape3 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.OvalShape2 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.OvalShape1 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
         Me.LED0 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -43,12 +43,14 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.AllLEDON = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("新細明體", 20.0!)
-        Me.Button1.Location = New System.Drawing.Point(451, 450)
+        Me.Button1.Location = New System.Drawing.Point(461, 535)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(263, 123)
         Me.Button1.TabIndex = 8
@@ -75,47 +77,12 @@ Partial Class Form1
         Me.ShapeContainer1.TabIndex = 9
         Me.ShapeContainer1.TabStop = False
         '
-        'OvalShape1
+        'OvalShape8
         '
-        Me.OvalShape1.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape1.Location = New System.Drawing.Point(145, 186)
-        Me.OvalShape1.Name = "OvalShape1"
-        Me.OvalShape1.Size = New System.Drawing.Size(55, 54)
-        '
-        'OvalShape2
-        '
-        Me.OvalShape2.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape2.Location = New System.Drawing.Point(269, 186)
-        Me.OvalShape2.Name = "OvalShape2"
-        Me.OvalShape2.Size = New System.Drawing.Size(55, 54)
-        '
-        'OvalShape3
-        '
-        Me.OvalShape3.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape3.Location = New System.Drawing.Point(393, 186)
-        Me.OvalShape3.Name = "OvalShape3"
-        Me.OvalShape3.Size = New System.Drawing.Size(55, 54)
-        '
-        'OvalShape4
-        '
-        Me.OvalShape4.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape4.Location = New System.Drawing.Point(517, 186)
-        Me.OvalShape4.Name = "OvalShape4"
-        Me.OvalShape4.Size = New System.Drawing.Size(55, 54)
-        '
-        'OvalShape5
-        '
-        Me.OvalShape5.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape5.Location = New System.Drawing.Point(641, 186)
-        Me.OvalShape5.Name = "OvalShape5"
-        Me.OvalShape5.Size = New System.Drawing.Size(55, 54)
-        '
-        'OvalShape6
-        '
-        Me.OvalShape6.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape6.Location = New System.Drawing.Point(765, 186)
-        Me.OvalShape6.Name = "OvalShape6"
-        Me.OvalShape6.Size = New System.Drawing.Size(55, 54)
+        Me.OvalShape8.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.OvalShape8.Location = New System.Drawing.Point(1013, 186)
+        Me.OvalShape8.Name = "OvalShape8"
+        Me.OvalShape8.Size = New System.Drawing.Size(55, 54)
         '
         'OvalShape7
         '
@@ -124,12 +91,47 @@ Partial Class Form1
         Me.OvalShape7.Name = "OvalShape7"
         Me.OvalShape7.Size = New System.Drawing.Size(55, 54)
         '
-        'OvalShape8
+        'OvalShape6
         '
-        Me.OvalShape8.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape8.Location = New System.Drawing.Point(1013, 186)
-        Me.OvalShape8.Name = "OvalShape8"
-        Me.OvalShape8.Size = New System.Drawing.Size(55, 54)
+        Me.OvalShape6.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.OvalShape6.Location = New System.Drawing.Point(765, 186)
+        Me.OvalShape6.Name = "OvalShape6"
+        Me.OvalShape6.Size = New System.Drawing.Size(55, 54)
+        '
+        'OvalShape5
+        '
+        Me.OvalShape5.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.OvalShape5.Location = New System.Drawing.Point(641, 186)
+        Me.OvalShape5.Name = "OvalShape5"
+        Me.OvalShape5.Size = New System.Drawing.Size(55, 54)
+        '
+        'OvalShape4
+        '
+        Me.OvalShape4.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.OvalShape4.Location = New System.Drawing.Point(517, 186)
+        Me.OvalShape4.Name = "OvalShape4"
+        Me.OvalShape4.Size = New System.Drawing.Size(55, 54)
+        '
+        'OvalShape3
+        '
+        Me.OvalShape3.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.OvalShape3.Location = New System.Drawing.Point(393, 186)
+        Me.OvalShape3.Name = "OvalShape3"
+        Me.OvalShape3.Size = New System.Drawing.Size(55, 54)
+        '
+        'OvalShape2
+        '
+        Me.OvalShape2.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.OvalShape2.Location = New System.Drawing.Point(269, 186)
+        Me.OvalShape2.Name = "OvalShape2"
+        Me.OvalShape2.Size = New System.Drawing.Size(55, 54)
+        '
+        'OvalShape1
+        '
+        Me.OvalShape1.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.OvalShape1.Location = New System.Drawing.Point(145, 186)
+        Me.OvalShape1.Name = "OvalShape1"
+        Me.OvalShape1.Size = New System.Drawing.Size(55, 54)
         '
         'LED0
         '
@@ -211,12 +213,34 @@ Partial Class Form1
         Me.Label8.TabIndex = 17
         Me.Label8.Text = "LED7"
         '
+        'AllLEDON
+        '
+        Me.AllLEDON.Font = New System.Drawing.Font("新細明體", 15.0!)
+        Me.AllLEDON.Location = New System.Drawing.Point(213, 364)
+        Me.AllLEDON.Name = "AllLEDON"
+        Me.AllLEDON.Size = New System.Drawing.Size(253, 85)
+        Me.AllLEDON.TabIndex = 18
+        Me.AllLEDON.Text = "ALL LED ON"
+        Me.AllLEDON.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("新細明體", 15.0!)
+        Me.Button2.Location = New System.Drawing.Point(692, 364)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(253, 85)
+        Me.Button2.TabIndex = 19
+        Me.Button2.Text = "ALL LED OFF"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(1180, 709)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.AllLEDON)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -254,4 +278,6 @@ Partial Class Form1
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents AllLEDON As Button
+    Friend WithEvents Button2 As Button
 End Class

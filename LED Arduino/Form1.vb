@@ -57,4 +57,11 @@ Public Class Form1
     Private Sub OvalShape1_Click_1(sender As Object, e As EventArgs) Handles OvalShape1.Click, OvalShape8.Click, OvalShape7.Click, OvalShape6.Click, OvalShape5.Click, OvalShape4.Click, OvalShape3.Click, OvalShape2.Click
 
     End Sub
+
+    Private Sub AllLEDON_Click(sender As Object, e As EventArgs) Handles AllLEDON.Click
+        If AllLEDON_Click() Then
+            SendCommand(SerialPort1.1)
+        End If
+
+    End Sub
 End Class
