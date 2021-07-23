@@ -1,0 +1,15 @@
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\bin\Debug\LED Arduino.exe.config
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\bin\Debug\LED Arduino.exe
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\bin\Debug\LED Arduino.pdb
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\bin\Debug\LED Arduino.xml
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED Arduino.vbprojAssemblyReference.cache
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED_Arduino.Form1.resources
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED_Arduino.Resources.resources
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED Arduino.vbproj.GenerateResource.cache
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED Arduino.vbproj.CoreCompileInputs.cache
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED Arduino.exe
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED Arduino.xml
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED Arduino.pdb
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\bin\Debug\zh-Hant\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\cspss\SynologyDrive\Arduino VB\LED Arduino\LED Arduino\obj\Debug\LED Arduino.vbproj.CopyComplete
