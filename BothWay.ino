@@ -3,14 +3,15 @@
 int latchPin = 9;  // Latch pin (STCP腳位)
 int clockPin = 10; // Clock pin (SHCP腳位)
 int dataPin = 11;  // Data pin (DS腳位)
-
+int button = 12;
+char f;
 ShiftRegister74HC595<1> sr(dataPin, clockPin, latchPin);
 
 // 設置74595 LED單個
 // 引數:
 //  - pin(int) 74595腳位
 //  - high(bool) 開/關
-void set74595LED(int pin, bool high) {
+/*void set74595LED(int pin, bool high) {
   sr.set(pin, high);
   if(!high) {
     pin = 8 + pin;
@@ -42,47 +43,35 @@ void set74595All(bool high) {
     Serial.write(13);
     Serial.write(14);
     Serial.write(15);
-  }
+  }*/
 
 void setup() 
 {
   Serial.begin(115200);
   //74595全關
   sr.setAllLow();
+  pinMode(button, INPUT);
 }
 void loop()
 {
     if (Serial.available()>0){ //小於0不送資料
     f = Serial.parseInt();
-
+ if (button == LOW) {
     switch(f) {
         case 1: //led 全亮
-            sr.setallHigh();
+            sr.setAllHigh(); // set all pins HIGH
             Serial.flush();
             Serial.println("A ON");
         break;
-
-    delay(500);
-    int i = 0;
-    while(true){
-        set74595LED(i, true);
-        delay(200);
-        Serial.write(i);
-        if(i >= 7) break;
-        i++;
-  }
-  set74595All(false);
-  int k = 7;
-  while(true){
-    set74595LED(k, true);
-    delay(200);
-    Serial.write(k);
-    if(k <= 0) break;
-    k--;
-  }
-  set74595All(false);
-       
-
-
+    } 
+    }else {
+        sr.setAllLow();
+    
+    
     }
+   
+
+
+    
+}
 }
